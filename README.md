@@ -34,10 +34,9 @@ GitHub Pages tidak punya server, jadi:
   **Settings → Secrets and variables → Actions → Variables** dan tambahkan
   `VITE_FORM_ENDPOINT` berisi URL form Anda. Build berikutnya otomatis memakainya.
 
-## Mizal zontoh
-
-```sh
-npm entut
-npm run dev      # http://localhost:5173
-npm run build    # hasil di dist/
-```
+## Untukku
+Sumbernya :
+- Bikin ini di `https://freebuff.com/` AI untuk koding. (Cuma percobaan makanya akunya pake temporer)
+- Abis itu di download
+- Hasil download berupa ZIP lalu masukin ke Claude minta ubah biar kompatible untuk GitHub
+- **Nama di Explorer win : C:\YOZH\Production\Dev Production\webportf-freebuff\v3-cloudeFix (Disesuaikan Claude)**
