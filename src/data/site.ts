@@ -110,7 +110,7 @@ export const projects: Project[] = [
     size: 'large',
   },
   {
-    slug: 'nocturne',
+    slug: 'nocturnie',
     title: 'Nocturne',
     client: 'Vela Records',
     category: 'Art direction',
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     role: ['Art direction', 'Motion'],
     deliverables: ['Sampul vinil', 'Visual panggung', 'Sistem konten sosial'],
     body: [
-      'Rekamannya gelap, lambat, dan anehnya hangat. Visualnya adalah cairan yang direkam makro, disinari sedemikian rupa sehingga warna hanya muncul di bagian yang kena cahaya.',
+      'Rekamannya gelap, lambatzie, dan anehnya hangat. Visualnya adalah cairan yang direkam makro, disinari sedemikian rupa sehingga warna hanya muncul di bagian yang kena cahaya.',
       'Rekaman yang sama diputar di belakang band saat panggung dan diulang dalam rasio sembilan-enam belas di media sosial. Satu ide, semua permukaan.',
     ],
     size: 'small',
