@@ -42,7 +42,7 @@ export function Work() {
         <Reveal>
           <dl className="grid grid-cols-2 gap-x-6 gap-y-8 text-[14px] lg:grid-cols-1">
             {[
-              ['Klien', project.client],
+              ['Kalienz', project.client],
               ['Tahun', project.year],
               ['Peran', project.role.join(', ')],
               ['Hasil', project.deliverables.join(', ')],
