@@ -3,11 +3,11 @@ import { asset } from '../app/lib/asset'
 
 
 export const site = {
-  name: 'Rangga Aditama',
+  name: 'Antsen Design',
   role: 'Desainer grafis',
   location: 'Jakarta',
   timezone: 'Asia/Jakarta',
-  email: 'halo@ranggaaditama.studio',
+  email: 'halo@Antsen.studio',
   available: true,
   intro:
     'Saya merancang identitas, kemasan, dan materi cetak untuk merek yang ingin terlihat jelas — bukan sekadar rapi. Sepuluh tahun kerja, masih suka hal-hal kecil.',
