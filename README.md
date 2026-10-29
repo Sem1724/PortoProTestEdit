@@ -36,7 +36,7 @@ GitHub Pages tidak punya server, jadi:
 
 ## Untukku
 Sumbernya :
-- Repo `PortoProTestEdit` adalah sama dengan Repo `freebuff-v3`
+- Repo ini alias `PortoProTestEdit` adalah sama dengan Repo `freebuff-v3`
 - Bikin ini di `https://freebuff.com/` AI untuk koding. (Cuma percobaan makanya akunya pake temporer)
 - Abis itu di download
 - Hasil download berupa ZIP lalu masukin ke Claude minta ubah biar kompatible untuk GitHub
