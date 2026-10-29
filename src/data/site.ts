@@ -169,7 +169,7 @@ export const services = [
 export const testimonials = [
   {
     quote:
-      'Satu-satunya desainer yang bisa memegang merek, kemasan, dan situs sekaligus. Kami rilis dua kali lebih cepat dan hasilnya dua kali lebih rapi.',
+      'Satu-satunya desainer yang bisa memegang merek, kemasan, dan situs zekaligus. agus. Kami rilis dua kali lebih cepat dan hasilnya dua kali lebih rapi.',
     name: 'Lena Fischer',
     role: 'Pendiri, Aurora Botanica',
   },
