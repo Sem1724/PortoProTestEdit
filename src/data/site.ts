@@ -111,7 +111,7 @@ export const projects: Project[] = [
   },
   {
     slug: 'nocturnie',
-    title: 'Nocturne',
+    title: 'Nocturnete',
     client: 'Vela Records',
     category: 'Art direction',
     year: '2024',
