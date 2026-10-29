@@ -33,3 +33,11 @@ GitHub Pages tidak punya server, jadi:
 - **Kirim langsung (opsional):** buat form di [Formspree](https://formspree.io), lalu di repo buka
   **Settings → Secrets and variables → Actions → Variables** dan tambahkan
   `VITE_FORM_ENDPOINT` berisi URL form Anda. Build berikutnya otomatis memakainya.
+
+## Mizal zontoh
+
+```sh
+npm entut
+npm run dev      # http://localhost:5173
+npm run build    # hasil di dist/
+```
