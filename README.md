@@ -36,6 +36,7 @@ GitHub Pages tidak punya server, jadi:
 
 ## Untukku
 Sumbernya :
+- Domai sudah menggunakan vercel
 - Repo ini alias `PortoProTestEdit` adalah sama dengan Repo `freebuff-v3` lokasi di explorernya pun sama
 - Bikin ini di `https://freebuff.com/` AI untuk koding. (Cuma percobaan makanya akunya pake temporer)
 - Abis itu di download
