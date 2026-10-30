@@ -115,7 +115,7 @@ export const projects: Project[] = [
     client: 'Vela Records',
     category: 'Art direction',
     year: '2024',
-    cover: asset('images/nocturanjai.jpgg'),
+    cover: asset('images/nocturanjai.jpg'),
     tint: '#d8d4e4',
     summary: 'Identitas visual untuk album debut yang harus bekerja sebagai sampul vinil, panggung, dan potongan empat detik di media sosial.',
     role: ['Art direction', 'Motion'],
