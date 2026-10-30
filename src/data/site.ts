@@ -17,7 +17,7 @@ export const site = {
     { label: 'Dribbble', href: 'https://dribbble.com/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
   ],
-  marquee: ['Identitas merek', 'Kemasan', 'Tipografi', 'Editorial', 'Art direction', 'Ilustrasi'],
+  marquee: ['Identitas merek', 'Kemasan', 'Tipografi', 'Editorial Ndando', 'Art direction', 'Ilustrasi'],
 }
 
 export interface Project {
