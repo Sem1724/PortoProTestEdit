@@ -71,6 +71,9 @@ export function Work() {
         </div>
       </div>
 
+
+{/* GANTI LAGI ANJOY */}
+{/*
       <div className="mt-16 grid gap-6 md:grid-cols-2">
         <Reveal>
           <div className="image-frame aspect-[4/3] rounded-image" style={{ background: project.tint }}>
@@ -83,6 +86,22 @@ export function Work() {
           </div>
         </Reveal>
       </div>
+*/}
+
+      {project.gallery && project.gallery.length > 0 && (
+        <div className="mt-16 grid gap-6 md:grid-cols-2">
+          {project.gallery.map((src, i) => (
+            <Reveal key={src} delay={(i % 2) * 0.1}>
+              <div className="image-frame aspect-[4/3] rounded-image" style={{ background: project.tint }}>
+                <img src={src} alt={`${project.title}, gambar ${i + 1}`} loading="lazy" className="size-full object-cover" />
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      )}
+
+
+
 
       <Link to={`/work/${next.slug}`} className="group mt-32 block border-t border-line pt-10">
         <p className="text-[14px] text-muted">Proyek berikutnya</p>
