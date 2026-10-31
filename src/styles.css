@@ -92,7 +92,7 @@
     *,
     *::before,
     *::after {
-      animation-duration: 0.01ms !important;
+      animation-duration: none !important;
       transition-duration: 0.01ms !important;
     }
   }
