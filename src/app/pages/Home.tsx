@@ -153,6 +153,7 @@ function Services() {
   )
 }
 
+/*
 function Testimonials() {
   const [index, setIndex] = useState(0)
   const t = testimonials[index]
@@ -167,6 +168,51 @@ function Testimonials() {
             </footer>
           </motion.blockquote>
         </AnimatePresence>
+        <div className="mt-10 flex items-center gap-2">
+          {testimonials.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              aria-label={`Testimonial ${i + 1}`}
+              onClick={() => setIndex(i)}
+              className={cx('h-1.5 rounded-[3px] transition-all duration-500', i === index ? 'w-10 bg-bg' : 'w-4 bg-bg/30 hover:bg-bg/50')}
+            />
+          ))}
+          <Magnetic className="ml-auto">
+            <button type="button" onClick={() => setIndex((index + 1) % testimonials.length)} className="grid size-12 place-items-center rounded-[14px] border border-bg/20 transition-colors hover:bg-bg hover:text-fg" aria-label="Next">
+              <ArrowUpRight className="size-4 rotate-45" />
+            </button>
+          </Magnetic>
+        </div>
+      </div>
+    </div>
+  )
+}
+*/
+
+/*Markicob anjoy*/
+function Testimonials() {
+  const [index, setIndex] = useState(0)
+  return (
+    <div className="rounded-[32px] bg-fg px-6 py-14 text-bg sm:px-14 sm:py-20">
+      <div className="mx-auto max-w-3xl">
+        <div className="grid">
+          {testimonials.map((item, i) => (
+            <motion.blockquote
+              key={i}
+              aria-hidden={i !== index}
+              initial={false}
+              animate={{ opacity: i === index ? 1 : 0, y: i === index ? 0 : 12 }}
+              transition={{ duration: 0.4, ease }}
+              className={cx('col-start-1 row-start-1', i !== index && 'pointer-events-none select-none')}
+            >
+              <p className="font-display text-balance text-[30px] leading-[1.1] sm:text-[44px]">“{item.quote}”</p>
+              <footer className="mt-8 text-[15px] text-bg/60">
+                <span className="text-bg">{item.name}</span>, {item.role}
+              </footer>
+            </motion.blockquote>
+          ))}
+        </div>
         <div className="mt-10 flex items-center gap-2">
           {testimonials.map((_, i) => (
             <button
