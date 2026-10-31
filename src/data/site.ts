@@ -117,6 +117,8 @@ export const projects: Project[] = [
     category: 'Art direction',
     year: '2024',
     cover: asset('images/nocturanjai.jpg'),
+    gallery: [asset('images/nocturanjai.jpg'), asset('images/circel-50kb.png')],
+    tint: '#efe4d8',
     tint: '#d8d4e4',
     summary: 'Identitas visual untuk album debut yang harus bekerja sebagai sampul vinil, panggung, dan potongan empat detik di media sosial.',
     role: ['Art direction', 'Motion'],
