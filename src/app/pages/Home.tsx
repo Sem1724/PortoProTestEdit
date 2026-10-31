@@ -153,7 +153,7 @@ function Services() {
   )
 }
 
-/*
+
 function Testimonials() {
   const [index, setIndex] = useState(0)
   const t = testimonials[index]
@@ -188,9 +188,10 @@ function Testimonials() {
     </div>
   )
 }
-*/
+
 
 /*Markicob anjoy*/
+/*
 function Testimonials() {
   const [index, setIndex] = useState(0)
   return (
@@ -233,3 +234,4 @@ function Testimonials() {
     </div>
   )
 }
+*/
