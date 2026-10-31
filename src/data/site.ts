@@ -34,6 +34,7 @@ export interface Project {
   link?: string
   body: string[]
   size: 'large' | 'small'
+  gallery?: string[]
 }
 
 export const projects: Project[] = [
