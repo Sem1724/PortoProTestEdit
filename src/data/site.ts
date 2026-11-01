@@ -17,7 +17,10 @@ export const site = {
     { label: 'Dribbble', href: 'https://dribbble.com/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
   ],
-  marquee: ['Desain Feed Instagram', 'Poster Promosi', 'Banner', 'Brosur', 'Flyer', 'Menu Restoran / Kafe', 'Desain Kemasan', 'Label Makanan / Minuman', 'Spanduk / Baliho', 'YouTube Thumbnail', 'Sticker Promosi'],
+  marquee: ['Desain Feed Instagram', 'Poster Promosi', 'Banner', 'Brosur', 'Flyer', 'Menu Restoran / Kafe', 'Desain Kemasan', 'Label Makanan / Minuman', 'Spanduk / Baliho', 'YouTube Thumbnail', 'Sticker Promosi'
+
+    'Desain Feed Instagram', 'Poster Promosi', 'Banner', 'Brosur', 'Flyer', 'Menu Restoran / Kafe', 'Desain Kemasan', 'Label Makanan / Minuman', 'Spanduk / Baliho', 'YouTube Thumbnail', 'Sticker Promosi'
+  ],
 }
 
 export interface Project {
