@@ -6,7 +6,7 @@ const updated = '1 November 2026'
 const sections = [
   {
     title: '1. Ruang lingkup layanan',
-    body: ['Isi paragraf pertama Anda di sini.', 'Paragraf kedua jika perlu.', 'Paragraf ketiga memangnya ngenter coba ?'],
+    body: ['Isi paragraf pertama Anda di sini.', 'Paragraf kedua jika perlu.', 'Paragraf ketiga mari kita test'],
   },
   {
     title: '2. Pembayaran',
