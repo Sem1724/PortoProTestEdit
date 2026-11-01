@@ -10,9 +10,11 @@ import { Home } from './pages/Home'
 import { Work } from './pages/Work'
 
 import { Terms } from './pages/Terms'
-<Route path="about" element={<About />} />
-<Route path="syarat-ketentuan" element={<Terms />} />
-<Route path="*" element={<Navigate to="/" replace />} />
+<Routes location={location}>
+  <Route path="about" element={<About />} />
+  <Route path="syarat-ketentuan" element={<Terms />} />
+  <Route path="*" element={<Navigate to="/" replace />} />
+</Routes>
 
 function ScrollManager() {
   const { pathname, hash } = useLocation()
