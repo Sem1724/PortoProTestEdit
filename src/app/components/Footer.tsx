@@ -90,6 +90,7 @@ export function Footer() {
         </div>
 
         <div className="mt-24 grid gap-8 border-t border-line pt-8 text-[14px] sm:grid-cols-3">
+
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             {site.socials.map((s) => (
               <li key={s.label}>
@@ -99,15 +100,21 @@ export function Footer() {
               </li>
             ))}
           </ul>
+
           <p className="text-faint sm:text-center">
             {site.location}, {time}
           </p>
+
           <p className="text-faint sm:text-right">© {new Date().getFullYear()} {site.name}</p>
           
           <p className="text-faint sm:text-right">
-  <Link to="/syarat-ketentuan" className="link-draw mr-4 hover:text-fg">Syarat &amp; Ketentuan</Link>
-  © {new Date().getFullYear()} {site.name}
-</p>
+            <Link to="/syarat-ketentuan" className="link-draw mr-4 hover:text-fg">
+            Syarat &amp; Ketentuan
+            </Link>
+            {/*
+            © {new Date().getFullYear()} {site.name}
+            */}
+          </p>
 
 
 
