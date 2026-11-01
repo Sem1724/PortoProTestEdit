@@ -103,10 +103,14 @@ export function Footer() {
             {site.location}, {time}
           </p>
           <p className="text-faint sm:text-right">© {new Date().getFullYear()} {site.name}</p>
+          
           <p className="text-faint sm:text-right">
   <Link to="/syarat-ketentuan" className="link-draw mr-4 hover:text-fg">Syarat &amp; Ketentuan</Link>
   © {new Date().getFullYear()} {site.name}
 </p>
+
+
+
         </div>
       </div>
 
