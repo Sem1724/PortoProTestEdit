@@ -17,7 +17,7 @@ export const site = {
     { label: 'Dribbble', href: 'https://dribbble.com/' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
   ],
-  marquee: ['Identitas merek', 'Kemasan', 'Tipografi', 'Editorial Ndando', 'Art direction', 'Ilustrasi'],
+  marquee: ['Desain Feed Instagram', 'Poster Promosi', 'Banner', 'Brosur', 'Flyer', 'Menu Restoran / Kafe', 'Desain Kemasan', 'Label Makanan / Minuman', 'Spanduk / Baliho', 'YouTube Thumbnail', 'Sticker Promosi'],
 }
 
 export interface Project {
