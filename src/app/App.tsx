@@ -9,6 +9,11 @@ import { About } from './pages/About'
 import { Home } from './pages/Home'
 import { Work } from './pages/Work'
 
+import { Terms } from './pages/Terms'
+<Route path="about" element={<About />} />
+<Route path="syarat-ketentuan" element={<Terms />} />
+<Route path="*" element={<Navigate to="/" replace />} />
+
 function ScrollManager() {
   const { pathname, hash } = useLocation()
   useEffect(() => {

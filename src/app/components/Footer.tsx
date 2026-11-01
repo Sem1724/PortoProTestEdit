@@ -5,6 +5,8 @@ import { site } from '../../data/site'
 import { Lines, Magnetic, Reveal } from './motion'
 import { useLocalTime } from './Nav'
 
+import { Link } from 'react-router'
+
 export function Footer() {
   const time = useLocalTime()
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -103,6 +105,12 @@ export function Footer() {
           <p className="text-faint sm:text-right">© {new Date().getFullYear()} {site.name}</p>
         </div>
       </div>
+
+      <p className="text-faint sm:text-right">
+  <Link to="/syarat-ketentuan" className="link-draw mr-4 hover:text-fg">Syarat &amp; Ketentuan</Link>
+  © {new Date().getFullYear()} {site.name}
+</p>
+      
     </footer>
   )
 }
