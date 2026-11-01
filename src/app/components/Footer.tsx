@@ -105,15 +105,26 @@ export function Footer() {
             {site.location}, {time}
           </p>
 
+          {/*
+
           <p className="text-faint sm:text-right">© {new Date().getFullYear()} {site.name}</p>
           
           <p className="text-faint sm:text-right">
             <Link to="/syarat-ketentuan" className="link-draw mr-4 hover:text-fg">
             Syarat &amp; Ketentuan
             </Link>
-            {/*
+            
             © {new Date().getFullYear()} {site.name}
-            */}
+            
+          </p>
+          
+          */}
+
+          <p className="flex flex-wrap items-center gap-x-5 gap-y-2 text-faint sm:justify-end">
+            <Link to="/syarat-ketentuan" className="link-draw transition-colors hover:text-fg">
+            Syarat &amp; Ketentuan
+            </Link>
+            <span>© {new Date().getFullYear()} {site.name}</span>
           </p>
 
 
