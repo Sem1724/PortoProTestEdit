@@ -35,6 +35,9 @@ export function Home() {
 
       {/* Marquee */}
       <div className="overflow-hidden border-y border-line py-5" aria-hidden>
+
+        {/*
+        ---------Ubah kecepatan-------------
         <ul className="font-display flex w-max animate-marquee items-center gap-10 whitespace-nowrap text-[28px] text-fg/70 sm:text-[36px]">
           {[...site.marquee, ...site.marquee].map((item, i) => (
             <li key={i} className="flex items-center gap-10">
@@ -43,6 +46,18 @@ export function Home() {
             </li>
           ))}
         </ul>
+        */}
+
+        <ul className="font-display flex w-max animate-marquee items-center gap-10 whitespace-nowrap text-[28px] text-fg/70 sm:text-[36px]"
+        style={{ animationDuration: `${site.marquee.length * 5}s` }}>
+           {[...site.marquee, ...site.marquee].map((item, i) => (
+            <li key={i} className="flex items-center gap-10">
+            {item}
+            <span className="round size-2 rounded-full bg-accent" />
+            </li>
+          ))}
+        </ul>
+
       </div>
 
       {/* Work */}
